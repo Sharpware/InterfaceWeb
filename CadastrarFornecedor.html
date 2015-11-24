@@ -4,14 +4,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cadastrar Fornecedor</title>
+<title>Interface Sharpware</title>
 <link href="css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link href="css/sb-admin.css" rel="stylesheet">
 <link href="css/plugins/morris.css" rel="stylesheet">
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
-<body style="color: white">
+<body style="font color: white">
 <div id="wrapper">
 <!--Menu feito para todas as paginas -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -79,201 +79,148 @@
 </div>
 </nav>
 <!--Menu feito para todas as paginas -->
-<div id="page-wrapper">
-
-<div id="div-cf-azul">
-
-<p class="lbl-cclient"><strong><em>Cadastro de Fornecedor</em></strong></p>
-
-
-<form class="form-inline" id="codigo-pp-left"> 
-
-<div class="form-group">
-<label for="exampleInputName1">Razão Social</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="" maxlength="60" style="width: 250px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Nome Fantasia</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="" maxlength="60" style="width: 230px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group" id="div-status-cf">
-<p style="color:white"><strong>Status</strong></p>
-<div class="radio">
-<label style="align: center">
-<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-Ativo
-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<label>
-<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-Inativo
-</label>
-</div>
-</div>
-
-<br>
-<br>
-
-<div class="form-group">
-<label for="exampleInputName1">CNPJ</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="--.---.---/----.--" maxlength="14" style="width: 150px">&nbsp;&nbsp;
-
-</div>
-
-<div class="form-group">
-<label for="exampleInputEmail2">Email Principal</label>
-<br>
-<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email do Fornecedor" maxlength="40" style="width: 265px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputEmail2">Email Secundário</label>
-<br>
-<input type="email" class="form-control" id="exampleInputEmail2" placeholder="2º Email do Fornecedor" maxlength="40" style="width: 265px">&nbsp;&nbsp;
-</div>
-
-<br>
-<br>
-
-<div class="form-group">
-<label for="exampleInputName1">Telefone 1</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="DDD + Tel" maxlength="12" style="width: 130px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Telefone 2</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="DDD + Tel" maxlength="12" style="width: 130px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Celular</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="DDD + Cel" maxlength="12" style="width: 130px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Restrição</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="" maxlength="200" style="width: 277px">&nbsp;&nbsp;
-</div>
-
-<br>
-<br>
-
-<div class="form-group">
-<label for="exampleInputName1">Logradouro</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="Endereço" maxlength="100" style="width: 210px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Número</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="Endereço" maxlength="100" style="width: 80px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Complemento</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="" maxlength="100" style="width: 200px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">Bairro</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="" maxlength="100" style="width: 177px">&nbsp;&nbsp;
-</div>
-
-<br>
-<br>
-
-<div class="form-group">
-<label for="exampleInputName1">Cidade</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="" maxlength="100" style="width: 250px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">CEP</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="-----_---" maxlength="8" style="width: 90px">&nbsp;&nbsp;
-</div>
-
-<div class="form-group">
-<label for="exampleInputName1">UF</label>
-<br>
-<input type="text" class="form-control" id="exampleInputName1" placeholder="Endereço" maxlength="2" style="width: 50px">&nbsp;&nbsp;
-</div>
-
-<br>
-<br>
-
-<div class="form-group">
-<label for="exampleInputName1">Observação</label>
-<br>
-<textarea rows="5" cols="50" class="form-control" id="exampleInputName1" placeholder="Escreva algo se for necessário." maxlength="500" style="width: 706px; height: 100px"></textarea>&nbsp;&nbsp;
-</div>
-
-<br>
-<br>
-
-<div>
-
-<button type="submit" class="glyphicon glyphicon-ok btn btn-info" id="btn-cf1"><strong> Salvar</strong></button>
-
-</div>
-
-<div>
-
-<button type="submit" class="glyphicon glyphicon-remove btn btn-info" id="btn-cf2"><strong> Cancelar</strong></button>
-
-</div>
-
-</form>
-
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-</div>
-</div>
+    <div id="page-wrapper">
+        <div class="container col-md-12">
+        <form class="form-horizontal col-md-offset-2 col-md-8 ">
+           <h1 class="text-center"><strong><em>Formulario de fornecedor</em></strong></h1>
+           <br>
+           <div class="row">
+                <div class="col-md-6">    
+                    <div class="form-group">
+                        <label for="razaoSocialTbx">Razao Social</label>
+                        <input type="text" class="form-control" id="razaoSocialTbx" placeholder="Razão social" name="fornecedor.razaoSocial" value="${fornecedor.razaoSocial}" />
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-push-1">    
+                    <div class="form-group">
+                        <label for="nomeFantasiaTbx">Nome fantasia</label>
+                        <input type="text" class="form-control" id="nomeFantasiaTbx" placeholder="Nome fantasia" name="fornecedor.nomeFantasia" value="${fornecedor.nomeFantasia}" />
+                    </div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="cnpjTbx">CNPJ</label>
+                        <input type="text" class="form-control" id="cnpjTbx" placeholder="CPF" name="fornecedor.cnpj" value="${fornecedor.cnpj}" />
+                    </div>
+                    <div class="form-group">
+                        <label for="emailPrimarioTbx">Email primario</label>
+                        <input type="text" class="form-control" id="emailPrimarioTbx" placeholder="Data de nascimento" name="fornecedor.emailPrimario" value="${fornecedor.emailPrimario}" />
+                    </div>
+                    <div class="form-group">
+                        <label for="emailSecundarioTbx">Email secundario</label>
+                        <input type="text" class="form-control" id="emailSecundarioTbx" placeholder="Data de nascimento" name="fornecedor.emailSecundario" value="${fornecedor.emailSecundario}" />
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-push-1">
+                    <div class="radio borda">
+                       <h4 class="text-center">Situação</h4>
+                       <div class="col-md-offset-2">
+                        <label class="col-md-12">
+                            <input type="radio" name="situacao" id="ativoRb" value="situacao.ativo" checked>
+                            Ativo  
+                        </label>
+                        <label>
+                            <input type="radio" name="situacao" id="inativoRb" value="situacao.inativo" >
+                            Inativo  
+                        </label>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="telefoneResidencialTbx">Telefone Residencial</label>
+                        <input type="text" class="form-control" id="telefoneResidencialTbx" placeholder="Telefone Residencial" name="fornecedor.telefoneResidencial" value="${fornecedor.telefoneResidencial}" />
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                    <div class="form-group">
+                        <label for="telefoneComercialTbx">Telefone Comercial</label>
+                        <input type="text" class="form-control" id="telefoneComercialTbx" placeholder="Telefone comercial" name="fornecedor.telefoneComercial" value="${fornecedor.telefoneComercial}" />
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                    <div class="form-group">
+                        <label for="celularTbx">Celular</label>
+                        <input type="text" class="form-control" id="celularTbx" placeholder="Celular" name="fornecedor.celular" value="${fornecedor.celular}" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="logradouroTbx">Logradouro</label>
+                        <input type="text" class="form-control" id="logradouroTbx" placeholder="Logradouro" name="fornecedor.endereco.logradouro" value="${fornecedor.endereco.logradouro}" />
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-push-1">
+                    <div class="form-group">
+                        <label for="numeroTbx">Numero</label>
+                        <input type="text" class="form-control" id="numeroTbx" placeholder="Numero" name="fornecedor.endereco.numero" value="${fornecedor.endereco.numero}" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="complementoTbx">Complemento</label>
+                        <input type="text" class="form-control" id="complementoTbx" placeholder="Complemento" name="fornecedor.endereco.complemento" value="${fornecedor.endereco.complemento}" />
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-push-1">
+                    <div class="form-group">
+                        <label for="bairroTbx">Bairro</label>
+                        <input type="text" class="form-control" id="bairroTbx" placeholder="Bairro" name="fornecedor.endereco.bairro" value="${fornecedor.endereco.bairro}" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label for="cidadeTbx">Cidade</label>
+                        <input type="text" class="form-control" id="cidadeTbx" placeholder="Cidade" name="fornecedor.endereco.cidade" value="${fornecedor.endereco.cidade}" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-push-1">
+                     <div class="form-group">
+                        <label for="cepTbx">CEP</label>
+                        <input type="text" class="form-control" id="cepTbx" placeholder="CEP" name="fornecedor.endereco.cep" value="${fornecedor.endereco.cep}" />
+                    </div>
+                </div>
+                <div class="col-md-1 col-md-push-2">
+                     <div class="form-group">
+                        <label for="ufTbx">UF</label>
+                        <input type="text" class="form-control" id="ufTbx" placeholder="UF" name="fornecedor.endereco.uf" value="${fornecedor.endereco.uf}" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="observacaoTbx">Observação</label>
+                        <textarea class="form-control col-md-12" rows="4"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-md-6 col-md-push-9">
+                <button type="submit" class="btn btn-danger col-md-3 col-md-pull-1" >Cancelar</button>
+                <button type="submit" class="btn btn-success col-md-3 " >Salvar</button>
+                <br>
+                <br>
+                <br>
+                </div>
+            </div>
+        </form>
+        </div>
+       </div>
+    </div>
+    
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
