@@ -14,11 +14,7 @@
 }
 
 #page-wrapper {
-<<<<<<< HEAD
-    background-color: #D3D3D3;
-=======
     background-color: #b0e0e6;
->>>>>>> 6a9241669fb8c4df82d5fad7a0dbbd18f44924e5
 }
 .div-img{
     background-image:url(imagens/soft.png);
@@ -27,21 +23,11 @@
     background-repeat: no-repeat;
     height: 100px;
 }
-<<<<<<< HEAD
 
-/* PESQUISAR CLIENTE */
-
-
-
-
-
-/* PESQUISAR CLIENTE */
-    
-=======
 .borda {
     border: 1px inset white;
     background-color:  #20b2aa;
 }
-.titulo {
+.tabela {
+    background-color: #E8E8E8;
 }
->>>>>>> 6a9241669fb8c4df82d5fad7a0dbbd18f44924e5

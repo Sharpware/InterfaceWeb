@@ -81,79 +81,82 @@
 <!--Menu feito para todas as paginas -->
 <div id="page-wrapper">
 
-<div class="row container">
-   <div>
-       <h1 class="text-center">Pesquisar Cliente</h1>
-   </div>
-    
-    <form class="form-horizontal col-md-offset-2 col-md-8">
-        <div class="form-group">
-            <label for="nomeTbx">Name</label>
-            <input type="text" class="form-control" id="nomeTbx" placeholder="Digite o nome do cliente">
-        </div>
-        <div class="form-group">
-            <label for="codigoTbx">Código</label>
-            <input type="text" class="form-control" id="codigoTbx" placeholder="Digite o código do cliente">
-      </div>
-        <div class="form-group">
-            <label for="cpfTbx">CPF</label>
-            <input type="text" class="form-control" id="cpfTbx" placeholder="Digite o CPF do cliente">
-        </div>
-        
-        <label>Status</label>
-        <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                Nome
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Código
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                CPF
-              </label>
-            </div>
-     
-    <table class="table table-bordered">
+        <div class="container col-md-12">
+            <h1 class="text-center"><strong><em>Pesquisar Cliente</em></strong></h1>
+            <br>
+            <form class="form-horizontal col-md-offset-2 col-md-8">
+               <div class="row">
+               <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="nomeTbx">Name</label>
+                        <input type="text" class="form-control" id="nomeTbx" placeholder="Digite o nome do cliente">
+                    </div>
+                    <div class="form-group">
+                        <label for="codigoTbx">Código</label>
+                        <input type="text" class="form-control" id="codigoTbx" placeholder="Digite o código do cliente">
+                  </div>
+                    <div class="form-group">
+                        <label for="cpfTbx">CPF</label>
+                        <input type="text" class="form-control" id="cpfTbx" placeholder="Digite o CPF do cliente">
+                    </div>
+                </div>
+               <div class="col-md-5 col-md-push-1">
+                   <br>
+                    <div class="radio borda">
+                       <h4 class="text-center">Pesquisar por</h4>
+                       <div class="col-md-offset-2">
+                        <label class="col-md-12">
+                            <input type="radio" name="pesquisaCliente" id="ativoRb" value="pesquisa.codigo" checked>
+                            Codigo  
+                        </label>
+                        <label class="col-md-12">
+                            <input type="radio" name="pesquisaCliente" id="inativoRb" value="pesquisa.nome" >
+                            Nome 
+                        </label>
+                        <label>
+                            <input type="radio" name="pesquisaCliente" id="inativoRb" value="pesquisa.cpf" >
+                            CPF
+                        </label>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            <table class="table table-bordered table-hover tabela">
         <thead>
-            <tr>
-                <th>Código</th>
-                <th>Nome do Cliente</th> 
+            <tr class="success">
+                <th>Id</th>
+                <th>Nome</th>
                 <th>CPF</th>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td></td> 
-                <td></td>
+                <th>Email</th>
+                <th>Funções</th>
             </tr>
         </thead>
         <tbody>
-                
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Carter</td>
+                <td>johncarter@mail.com</td>
+                <td>
+                        <button type="submit" class="btn btn-primary btn-sm ">Inativar</button>
+                        <button type="submit" class="btn btn-primary btn-sm ">Editar</button>
+                </td>
+            </tr>
         </tbody>
-    </table>
-     
-      <div>
-          <button type="submit" class="btn btn-default">Pesquisar Cliente</button>&nbsp;&nbsp;
-          <button type="submit" class="btn btn-default">Inativar Cliente</button>&nbsp;&nbsp;
-          <button type="submit" class="btn btn-default">Editar Cliente</button>&nbsp;&nbsp;
-          <button type="submit" class="btn btn-default">Cancelar</button>
+        </table>
+                  <div class="col-md-6 col-md-push-9">
+                <button type="submit" class="btn btn-danger col-md-3 col-md-pull-1" >Cancelar</button>
+                <button type="submit" class="btn btn-success col-md-3 " >Pesquisar</button>
+                <br>
+                <br>
+                <br>
+                </div>
+                </div>
+                
+            </form>
+            
         </div>
-
-    </form>
-    
-</div>
-
-
-
-
-
-</div>
+    </div>
 </div>
 
 <script src="js/jquery.js"></script>
